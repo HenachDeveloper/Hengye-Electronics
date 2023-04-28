@@ -1,0 +1,315 @@
+    @font-face {
+        font-family: 'Montserrat-Italic';
+        src: url('assets/fonts/Montserrat-Italic.ttf');
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+        font-family: 'Roboto', sans-serif;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased !important;
+        line-height: 24px;
+        font-weight: 400;
+        background-color: #fff;
+        font-size: .9em;
+    }
+    
+    .name-logo {
+        font-weight: bold;
+        color: #06A27B;
+    }
+    .name{
+        color: #06A27B;
+    }
+    .nav-link {
+        color: #fff;
+        padding: 15px;
+    }
+    
+    .nav-link:hover {
+        color: #000;
+    }
+    
+    .after-menu-header p {
+        margin: 0 0 5px 0;
+        line-height: normal;
+        color: #777;
+        font-size: 13px;
+    }
+    
+    .logo {
+        background: #fff;
+        position: relative;
+        min-height: 125px;
+        padding: 30px 0 25px 10px;
+    }
+    
+    .info-icon {
+        font-size: 25px;
+        color: #06A27B;
+        display: inline-block;
+        padding: 0;
+    }
+    
+    .after-menu-header .address,
+    .after-menu-header .contact {
+        margin: 45px 0 0 0;
+    }
+    /* =============== Body */
+    
+    .produts img {
+        width: 7rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+   
+    .btn-primary{
+        background-color: #06A27B !important;
+        border-color: #06A27B !important;
+        text-align: right;
+        justify-content: center; 
+    }
+
+
+    .sub-title-about{
+        font-size: 1em;
+        color:  #06A27B;
+    }
+
+    .name-produts {
+        font-size: 1em;
+        color: #06A27B;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .careteristicas,
+    .parametro {
+        background-color: #06A27B;
+        padding: 7px;
+        color: #fff;
+    }
+    
+    .produts ul li a,
+    .side-notice {
+        text-transform: none !important;
+        text-decoration: none!important;
+        color: gray;
+    }
+    
+    .menu-services ul {
+        list-style-type: none;
+        padding-top: 50px;
+    }
+    
+    .menu-services ul li a {
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 20px;
+    }
+    
+    .menu-services ul li a:hover {
+        color: #06A27B;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 20px;
+    }
+    
+    .menu-services ul li {
+        padding: 5px;
+    }
+    
+    .produts ul {
+        list-style-type: none;
+        color: gray;
+    }
+    
+    .sub-title {
+        font-size: 1.5em;
+        color: #06A27B;
+        font-weight: bold;
+    }
+    
+    .sub-title2 {
+        font-size: 1.2em;
+        color: #06A27B;
+        font-weight: bold;
+        text-align: center;
+    }
+    .services{
+        padding-bottom: 57px !important;
+    }
+    
+    .iten-services,
+    .iten-services:hover {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #06A27B;
+        font-size: .8em;
+    }
+    .description-services{
+        font-size: .8em;
+    }
+    .custom-produts {
+        background-color: #fff;
+        border-radius: 100%;
+        margin-left: 50px;
+        border: 10px solid #e6e6e6; 
+        padding: 15px;
+        opacity: .5;
+    }
+    .custom-produts:hover {
+        background-color: #fff;
+        border-radius: 100%;
+        margin-left: 50px;
+        border: 10px solid #e6e6e6; 
+        padding: 15px;
+        opacity: 1;
+        transition-duration: 1000ms; 
+    }
+    .card-services img{
+        width: 7rem;
+    }
+    .custom-produts{
+      
+      /*transition-duration: 1000ms; */
+    }
+    .custom-produts span {
+        font-size: .8em;
+    }
+    .title-produts{
+       padding-top: 20px;
+       font-size: 1em;
+       padding-left: 50px;
+       font-weight: bold;
+    }
+    .descr-produts{
+        font-size: 1em;
+        font-weight: lighter;
+        text-align: center;
+        padding-left: 50px
+    }
+    .about-us {
+       /*background-color: #06A27B;*/
+    }
+    
+    .btn-send {
+        color: blue;
+    }
+    
+    .card-body {
+        background-color: #fff !important;
+    }
+    
+    .contact-form {
+        background-color: #06A27B;
+    }
+    
+    .title-address,
+    .title-contact {
+        font-size: 1.5em;
+        color: #fff;
+    }
+    .title-address2,
+    .title-contact2 {
+        font-size: 1.2em;
+        color: #06A27B;
+    }
+    
+    .sub-title3 {
+        font-size: .8em;
+        font-weight: bold;
+    }
+    
+    .vision p {
+        color: #fff;
+        font-size: .8em;
+    }
+    
+    .read-more {
+        background-color: #06A27B;
+        border-color: #06A27B;
+        padding: 5px;
+        font-size: .8em;
+    }
+
+    .card-services{
+
+        background-color: #fff;
+        box-shadow: 0 0 10px;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    /* ========================== Footer ============================*/
+    
+    .copyrigth {
+        font-size: .8em
+    }
+    
+    .custom-header {
+        background-color: #06A27B;
+        color: #fff;
+        padding: 20px;
+        font-size: 1.3em !important;
+    }
+    
+    .title-footer,
+    .title-news {
+        font-size: 1.3em;
+        padding-left: 35px;
+        color: #06A27B;
+        font-weight: bold;
+    }
+    .descr-news{
+        font-size: .9em;
+        padding-left: 5px;
+    }
+    
+    .menu-footer li a {
+        text-decoration: none;
+        text-transform: none;
+        color: #000;
+    }
+    
+    .sub-menu-iten {
+        border-left: 1px solid #06A27B;
+    }
+    
+    footer {
+        margin-top: 10px;
+        background-color: #DFF5EF;
+        width: 100%;
+        bottom: 0;
+        padding: 15px;
+    }
+    
+    .follow-us {
+        display: inline;
+        text-decoration: none;
+    }
+    
+    .follow-us li {
+        display: inline;
+        text-transform: none;
+        padding: 10px;
+    }
+    
+    footer ul{
+
+        text-decoration-style: none !important;
+    }
+    footer ul li{
+
+        text-decoration-style: none !important;
+        list-style: none;
+    }
+
+    @media only screen and (max-width: 768px) {}
+    
+    @media only screen and (max-width: 768px) {}
